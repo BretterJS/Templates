@@ -3,3 +3,9 @@
     box-sizing: border-box;
 
 }
+
+#container {
+
+    display: grid; //flex
+
+}
