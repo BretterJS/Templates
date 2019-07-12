@@ -2,7 +2,7 @@
 
 const http = require('http');
 
-const server = http.createServer(function(req, res) {
+const server = http.createServer((req, res) => {
 
   res.setHeader('Content-type', 'application/json');
   res.setHeader('Acces-Control-Allow-Origin', '*');
